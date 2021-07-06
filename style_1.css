@@ -7,7 +7,7 @@ header {
   height: 50px;
   background-color: #ff9a4b;
 }
-.heading{
+.heading {
   text-align: center;
 }
 main {
@@ -61,21 +61,21 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
   main {
     width: 100%;
-    margin:50px auto 50px;
+    margin: 50px auto 50px;
     display: block;
   }
-  .step-box{
+  .step-box {
     width: 90%;
     margin: 0 auto 20px;
   }
   .step-box:last-child {
-    margin:0 auto 20px;
+    margin: 0 auto 20px;
   }
   footer {
     height: 50px;
